@@ -1,0 +1,36 @@
+body {
+  min-width: 320px;
+}
+
+/*page-layout*/
+.page-layout.container {
+  padding-inline: 1.5rem;
+}
+
+@media (min-width: 375px) {
+    .page-layout.container {
+    padding-inline: 2.5rem;
+    }
+ }
+
+/*head h1, p */
+header.head h1 { 
+  font-size: clamp(1.4rem, 4.4vw, 2.6rem);
+}
+header.head p {
+  font-size: clamp(0.6rem, 2.2vw, 1.3rem); 
+}
+
+/*boxes*/
+main .row .box {
+  padding: 1rem;
+}
+
+main .row .box h2 {
+  font-size: clamp(0.95rem, 3vw, 1.9rem);
+}
+
+main .row .box p {
+  font-size: clamp(0.5rem, 1.5vw, 1rem); 
+}
+ 
